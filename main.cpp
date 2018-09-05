@@ -18,7 +18,7 @@ void testInsertionSort() {
         std::cout << i << "  ";
     }
 }
-
+//选择算法
 void testSelectSort() {
     int a[] = {-1, 23, -5, -3, -6, 98, 66};
     selectSort(a, length(a));
