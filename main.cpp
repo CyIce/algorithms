@@ -33,7 +33,7 @@ void testSelectSort() {
 
 //测试归并排序
 void testMergeSort() {
-    int a[] = {-1, 23, -5, -3, -6, 98, 66};
+    int a[] = {-1, 23, -5, -3, -6, 98, 66, 0, 44, 3, -3};
     mergeSort(a, 0, length(a) - 1);
     for (int i : a) {
         std::cout << i << "  ";

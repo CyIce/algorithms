@@ -21,3 +21,4 @@ void insertionSort(int *arr, int length, bool order) {
         }
     }
 }
+
