@@ -6,6 +6,8 @@
 #include "chapterTwo/selectSort/selectSort.h"
 //归并排序
 #include "chapterTwo/mergeSort/mergeSort.h"
+//冒泡排序
+#include "chapterTwo/bubbleSort/bubbleSort.h"
 
 //测试插入排序
 void testInsertionSort() {
@@ -41,9 +43,19 @@ void testMergeSort() {
     std::cout << std::endl;
 }
 
+//测试冒泡排序
+void testBubbleSort() {
+    int a[] = {-1, 23, -5, -3, -6, 98, 66, 0, 44, 3, -3};
+    bubbleSort(a, length(a));
+    for (int i : a) {
+        std::cout << i << "  ";
+    }
+    std::cout << std::endl;
+}
+
 int main() {
 
-    testMergeSort();
+
 
     return 0;
 }
