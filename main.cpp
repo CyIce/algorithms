@@ -8,6 +8,8 @@
 #include "chapterTwo/mergeSort/mergeSort.h"
 //冒泡排序
 #include "chapterTwo/bubbleSort/bubbleSort.h"
+//计算逆序对
+#include "chapterTwo/inversion/inversion.h"
 
 //测试插入排序
 void testInsertionSort() {
@@ -53,9 +55,17 @@ void testBubbleSort() {
     std::cout << std::endl;
 }
 
+//计算逆序对的数量
+void testInversion() {
+    int a[] = {2, 3, 8, 6, 1};
+    int num = 0;
+    inversion(a, 0, length(a) - 1, num);
+    std::cout << num << std::endl;
+}
+
 int main() {
 
-
+    testInversion();
 
     return 0;
 }
