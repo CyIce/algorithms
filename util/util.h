@@ -8,6 +8,9 @@
 
 #endif //ALGORITHMS_UTIL_H
 
+#include<cstdlib>
+#include<ctime>
+
 /*
  * 计算数组的长度
  */
@@ -25,3 +28,4 @@ void swap(T *a, T *b) {
     *b = *a;
     *a = tmp;
 }
+
